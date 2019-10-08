@@ -6,10 +6,16 @@ class App extends Component{
       super(props)
       console.log("This is the Initialiser")
 
+      const movies =[
+        {id: 0, title: "", overview: ""},
+        {id: 1, title: "", overview: ""},
+        {id: 2, title: "", overview: ""}
+      ]
+
       this.state = {rows: [
-      <p>This is a row</p>,
-      <p>This is a row</p>,
-      <p>This is a row</p>
+      <p key="1">This is a row</p>,
+      <p key="2">This is a row</p>,
+      <p key="3">This is a row</p>
 
     ]}
   }
