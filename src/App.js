@@ -9,13 +9,12 @@ class App extends Component{
             <tbody>
               <tr>
                 <td>
-                  <img width="50" src="green_app_icon.svg">
+                  <img width="50" src="green_app_icon.svg"/>
                 </td>
-                <td width="8">
-                  <td>
+                <td width="8"/>
+                <td>
                 <h1>Fly_movie</h1>
                 </td>
-              </td>
               </tr>
             </tbody>
           </table>
