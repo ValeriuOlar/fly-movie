@@ -25,7 +25,7 @@ class App extends Component{
     var movieRows =[]
     movies.forEach((movie) =>{
       console.log(movie.title);
-      movieRows.push(<p>movie title: {movie.title}</p>);
+      movieRows.push(<p key={movie.id}>movie title: {movie.title}</p>);
     })
 
     this.state = {movie: movieRows}
