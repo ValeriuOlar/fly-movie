@@ -6,8 +6,13 @@ class App extends Component{
       super(props)
       console.log("This is the Initialiser")
 
-      this.state = {rows: <p>This is a row</p>}
-    }
+      this.state = {rows: [
+      <p>This is a row</p>,
+      <p>This is a row</p>,
+      <p>This is a row</p>
+
+    ]},
+  }
 
 
   render() {
@@ -35,6 +40,8 @@ class App extends Component{
         paddingLeft: 16
       }}
       placeholder="Enter search term"/>
+
+      {this.state.rows}
 
       </div>
     );
