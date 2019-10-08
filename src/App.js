@@ -20,10 +20,12 @@ class App extends Component{
       <p key="3">This is a row</p>,
       <p key="4">This is a row</p>,
       <p key="5">This is a row</p>
-
     ]}
-  }
 
+    movies.forEach((movie) =>{
+      console.log(movie.title);
+    })
+  }
 
   render() {
     return(
