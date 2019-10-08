@@ -9,7 +9,7 @@ class App extends Component{
             <tbody>
               <tr>
                 <td>
-                  <img width="50" src="green_app_icon.svg"/>
+                  <img alt="app" width="50" src="green_app_icon.svg"/>
                 </td>
                 <td width="8"/>
                 <td>
@@ -18,6 +18,8 @@ class App extends Component{
               </tr>
             </tbody>
           </table>
+      <input placeholder="Enter search term"/>
+
       </div>
     );
   }
