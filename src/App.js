@@ -11,7 +11,7 @@ class App extends Component{
       <p>This is a row</p>,
       <p>This is a row</p>
 
-    ]},
+    ]}
   }
 
 
